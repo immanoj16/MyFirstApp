@@ -12,12 +12,15 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/android"/>
+        android:src="@drawable/android"
+        android:scaleType="centerCrop"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday Ben!"
         android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:textAppearance="?android:textAppearanceLarge"
         android:textSize="36sp"/>
 
@@ -28,6 +31,7 @@
         android:layout_alignParentBottom="true"
         android:textAppearance="?android:textAppearanceLarge"
         android:textSize="36sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-light"
         android:text="From, Lyla!"/>
 
